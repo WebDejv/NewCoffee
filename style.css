@@ -1,0 +1,126 @@
+
+
+.navbar-brand {
+	font-family: 'Dancing Script', cursive;
+	font-size: 50px;
+	font-style: italic;
+	color: #FF7605!important;
+}
+
+.navbar-collapse {
+	justify-content: flex-end;
+}
+
+.navbar-toggler { 
+	background-color: gray;
+}
+
+.bg-dark {
+	background-color: transparent!important;
+}
+
+.sidebar-collapse .navbar-collapse{
+    background: #000;
+}
+.sidebar-collapse .navbar-collapse::before{
+    background: linear-gradient(#b2a37d,#131313 80%);
+}
+
+a {
+	color: white;
+}
+
+.d-lg-none {
+	color: black;
+}
+
+.bi-facebook, .bi-twitter, .bi-instagram {
+  padding: 10px 20px 10px 20px;
+  font-size: 25px;
+  width: 40px;
+  text-align: auto;
+  text-decoration: none;
+  color: #FF7605;
+}
+
+/* Add a hover effect if you want */
+.bi:hover {
+  opacity: 0.7;
+
+}
+
+.container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+	margin-left: 50px;
+	margin-right: 50px;
+	
+}
+
+.carousel-item {
+	height: 35rem;
+	background: #777;
+	position: relative;
+}
+
+.overlay-image {
+	position: absolute;
+	background-position: center;
+	background-size: cover;
+	opacity: 0.8;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+
+}
+
+hr {
+	border-color: #f05f44;
+	border-width: 1.5px;
+	max-width: 500px;
+	border-radius: 50%
+}
+
+
+img {
+	box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2) ;
+}
+
+.section {
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+body {
+	background-color: #ECE2CC;
+}
+
+.input-group {
+	margin-bottom: 20px;
+}
+
+.form-control, .input-group-text{
+	border-radius: 30px;
+
+}
+
+.btn-round {
+	border-radius: 30px;
+}
+
+.section{
+	margin-bottom: 30px;
+}
+
+.footer {
+	background-color: black;
+	color: white;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.copyright {
+	font-size: 0.8rem;
+}
+
